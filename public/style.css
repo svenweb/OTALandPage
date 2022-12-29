@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
+
 html, body{
 	margin: 0;
 	padding: 0;
@@ -7,9 +9,9 @@ html, body{
 	overflow-x: hidden;
 	/* colors */
 	--waya-phone-cover: #492f6c;
-	--waya-fandango: #f60686;
-	--fandango-orange-gradient-tb: linear-gradient(0deg, rgba(246,6,134,1) 0%, rgba(244,114,48,1) 100%);
-	--fandango-orange-gradient-lr: linear-gradient(-90deg, rgba(246,6,134,1) 0%, rgba(244,114,48,1) 100%);
+	--waya-fandango: #0632f6;
+	--fandango-orange-gradient-tb: linear-gradient(0deg, rgb(6, 246, 146) 0%, rgb(48, 162, 244) 100%);
+	--fandango-orange-gradient-lr: linear-gradient(-90deg, rgb(6, 246, 86) 0%, rgb(58, 48, 244) 100%);
 }
 
 *{
@@ -41,7 +43,7 @@ a{
 }
 
 .app-logo{
-	height: 35px;
+	height: 90px;
 	object-fit: contain;
 	position: absolute;
 	top: 40px;
