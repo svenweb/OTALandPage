@@ -43,7 +43,7 @@ a{
 }
 
 .app-logo{
-	height: 90px;
+	height: 150px;
 	object-fit: contain;
 	position: absolute;
 	top: 40px;
@@ -173,6 +173,8 @@ a{
 	.app-preview img{
 		height: 400px;
 	}
+
+	
 }
 
 @media screen and (max-width: 779px){
