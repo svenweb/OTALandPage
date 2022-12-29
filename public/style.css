@@ -171,10 +171,11 @@ a{
 	}
 
 	.app-preview img{
-		height: 400px;
+		height: 1000px;
+		width:100%;
 	}
 
-	
+
 }
 
 @media screen and (max-width: 779px){
@@ -190,6 +191,7 @@ a{
 
 	.app-summary{
 		font-size: 12px;
+		margin-bottom: 5%;
 	}
 
 	.app-preview img{
