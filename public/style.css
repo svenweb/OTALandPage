@@ -8,8 +8,8 @@ html, body{
 	cursor: default;
 	overflow-x: hidden;
 	/* colors */
-	--waya-phone-cover: #492f6c;
-	--waya-fandango: #0632f6;
+	--waya-phone-cover: #0f6821;
+	--waya-fandango: #0a853b;
 	--fandango-orange-gradient-tb: linear-gradient(0deg, rgb(6, 246, 146) 0%, rgb(48, 162, 244) 100%);
 	--fandango-orange-gradient-lr: linear-gradient(-90deg, rgb(6, 246, 86) 0%, rgb(58, 48, 244) 100%);
 }
@@ -184,7 +184,7 @@ a{
 	height: 50vw;
 	background: var(--fandango-orange-gradient-lr);
 	border-radius: 50px;
-	border: 1px solid #ef5323;
+	border: 1px solid #0c1ea8;
 	transform: rotate(64deg);
 	position: absolute;
 	z-index: -1;
