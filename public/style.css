@@ -214,6 +214,9 @@ a{
 		top: -50%;
 		right: -5%;
 	}
+	.swiper{
+		height:100%;
+	}
 }
 
 @media screen and (max-width: 700px){
@@ -227,6 +230,10 @@ a{
 	.app-folded{
 		top: -35%;
 		right: -5%;
+	}
+
+	.swiper-slide{
+		padding-bottom:150px;
 	}
 }
 
@@ -251,6 +258,10 @@ a{
 	.swiper-slide img{
 		border-radius:2%;
 	}
+
+	.swiper-slide{
+		padding-bottom:150px;
+	}
 }
 
 @media screen and (max-width: 300px){
@@ -258,9 +269,16 @@ a{
 		min-width: 300px;
 		width: 300px !important;
 	}
+
+	.swiper-slide{
+		padding-bottom:150px;
+	}
 }
 
-
+#spacerDiv {
+	position: relative;
+	margin-top:140px;
+}
 
 #myPopup {
 	display:none;
@@ -335,7 +353,6 @@ footer{
     height: auto;
     width: 100vw;
     color: #fff;
-	margin-top: 50%
 }
 
 
@@ -368,7 +385,34 @@ footer{
  @media (max-width:500px) {
 	.footer-menu ul{
 	  display: flex;
-	  margin-top: 10px;
+	  margin-top: 20%;
 	  margin-bottom: 20px;
 	}
+
+	.swiper-slide{
+		padding-bottom:150px;
 	}
+
+	}
+
+
+	@media only screen and (max-width : 500px) { 
+		.swiper { height: 200px !important; width:100% !important; } 
+		.swiper img { height: 200px !important; width:100% !important;} 
+	}
+
+
+	.flex-wrapper {
+		display: flex;
+		min-height: 80vh;
+		flex-direction: column;
+		justify-content: space-between;
+	  }
+
+	  .container
+	  {
+		  min-height: 70%;
+		  min-height: -webkit-calc(100% - 186px);
+		  min-height: -moz-calc(100% - 186px);
+		  min-height: calc(100% - 186px);
+	  }
