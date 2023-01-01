@@ -18,8 +18,10 @@
 	<meta name="keywords" content="Waya, Fintech, Financial, Finance, Transfer, Transaction, cross-country, Modules, Hub, Code, Account, Ghana, Nigeria, Kenya, Send money to Ghana, Send money to Kenya, Send money to Nigeria">
 	<!-- end of seo -->
 	<title>OTA</title>
-	<link rel="shortcut icon" type="image/png" href="https://wayamoney.com/ico/favicon.png" />
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 	<!-- page header -->
@@ -30,7 +32,6 @@
 				<img class="app-logo" src="ico/OTALogo3.0.png" alt="On Top Ads Logo" />
 			</a>
 			<!-- title text -->
-			<!-- <h1>Download WayaMoney</h1> -->
 			<h1>Put your local business on top.</h1>
 			<!-- summary text -->
 			<div class="app-summary">
@@ -41,19 +42,144 @@
 					<dt>- Message center to chat with customers.</dd>
 				</dl> 
 			</div>
+
+
+			<script>
+			
+				function webAppMsg(){
+					var popup = document.getElementById("myPopup");
+					popup.style.visibility == 'visible'
+			}
+
+
+			</script>
 			<!-- the web app -->
-			<a class="app-web-sign-up" href="#">
-				Use The Web App
-			</a>
+			<div class="popup">
+				<a id="webAppBtn" class="app-web-sign-up" onclick="webAppMsg()">Web App coming in 2023!</a>
+				<span class="hideP" id="myPopup">Coming in 2023!</span>
+			  </div>
 		</aside>
 
-			<div class="app-preview">
-					<img src="ico/OTAInfographicV2.jpg" alt="On Top Ads Infographics" />
-			</div>
-			<div class="app-folded"></div>
 
-	</header>
-	<!-- end of page header -->
-	
+ <!-- Swiper -->
+ <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="ico/1.png" alt="slide 1"></div>
+      <div class="swiper-slide"> <img src="ico/2.png" alt="slide 2"></div>
+      <div class="swiper-slide"> <img src="ico/3.png" alt="slide 3"></div>
+      <div class="swiper-slide"> <img src="ico/4.png" alt="slide 4"></div>
+      <div class="swiper-slide"> <img src="ico/5.png" alt="slide 5"></div>
+      <div class="swiper-slide"> <img src="ico/6.png" alt="slide 6"></div>
+      <div class="swiper-slide"> <img src="ico/7.png" alt="slide 7"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+  
+
+
+
+
+
+
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+	  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 80%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+
+	.swiper-slide img {
+		width: 100%;
+		display: block;
+		border-radius: 2%;
+	}
+
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 12px;
+      color: #000;
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.2);
+
+    }
+
+    .swiper-pagination-bullet-active {
+      color: #fff;
+      background: #0a853b;
+    }
+  </style>
+
+</header>
+
+
+<footer>
+	<div class="footer-bottom">
+		<p>copyright &copy;2021 On Top Ads Inc. - <a href="#">Sven Jensen</a>  </p>
+	</div>
+  </footer>
+
+
+
+  <script type="module">
+    var swiper = new Swiper('.swiper', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+      },
+    });
+
+
+
+
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+
 </body>
 </html>
