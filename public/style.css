@@ -404,7 +404,7 @@ footer{
 
 	.flex-wrapper {
 		display: flex;
-		min-height: 30vh;
+		min-height: 50vh;
 		flex-direction: column;
 		justify-content: space-between;
 	  }
